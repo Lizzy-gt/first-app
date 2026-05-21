@@ -1,12 +1,14 @@
 import { StyleSheet, View } from 'react-native';
-import Recados from './hooks/atv';
+import { NavigationContainer } from '@react-navigation/native';
+import StackNavigator from './navigation/exemple/stack_navigator';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Recados />
-    </View>
-  )
+    <NavigationContainer>
+    
+        <StackNavigator />
+    </NavigationContainer>
+  );
 }
 
 const styles = StyleSheet.create({
