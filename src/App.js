@@ -1,12 +1,11 @@
 import { StyleSheet, View } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
-import StackNavigator from './navigation/exemple/stack_navigator';
+import DrawerNavigator from './navigation/exemple/drawer_navigator';
 
 export default function App() {
   return (
     <NavigationContainer>
-    
-        <StackNavigator />
+      <DrawerNavigator />
     </NavigationContainer>
   );
 }
@@ -18,4 +17,4 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
-})
+});

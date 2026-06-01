@@ -7,7 +7,7 @@ import { StyleSheet, Text, View } from "react-native";
 export default function ConfigScreen() {
   return (
     <View style={styles.container}>
-      <Text style={styles.titulo}>Configuracoes</Text>
+      <Text style={styles.titulo}>Configurações</Text>
     </View>
   );
 }
